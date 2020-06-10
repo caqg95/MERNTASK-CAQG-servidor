@@ -29,5 +29,5 @@ app.get('/',(req,res)=>{
 })
 //Arrancar la app
 app.listen(port,'0.0.0.0',()=>{
-    console.log(`EL SERVIDOR ESTA FUNCIONANDO EN EL PUERTO ${PORT}`);
+    console.log(`EL SERVIDOR ESTA FUNCIONANDO EN EL PUERTO ${port}`);
 });
